@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width:device-width, initial-scale=1.0">
+<style>
+@media screen and (min-width:1260px){
+
+	body{
+background-image:url("bg2.png");
+background-repeat:no-repeat;
+background-color:#F2A2A2;
+background-position:right -2%;
+}
+#box{
+background-color:white;
+position:fixed;
+width:390px;
+height:102000px;
+left:0%;
+top:0%;
+}
+#box h1{
+color:#FA7C7A;
+text-align:center;
+font-size:55px;
+margin:20% 0;
+
+}#box h1 span{
+border-bottom: 5px solid #FA7C7A;
+}
+
+#box form{
+padding-top:40%;
+}
+#iname,#ipass{
+display: block;
+margin : 5% auto;
+outline:none;
+border:none;
+width:90%;
+border-bottom:2px solid #FA7C7A;
+
+}
+#lname,#lpass,#logbtn{
+display: block;
+margin : 0 5% -7% 5%;
+color:#FA7C7A;
+}
+#logbtn{
+background-color:#FA7C7A;
+color:white;
+cursor:pointer;
+border:none;
+display:inline;
+padding: 4% 15%;
+transition:.2s;
+border:1px solid #FA7C7A;
+}
+#logbtn:hover{
+border:1px solid #FA7C7A;
+background-color:white;
+color:#FA7C7A;
+padding: 4% 15%;
+display:inline;
+
+}
+form #link{
+display: block;
+margin : -6% 5% 0 64%;
+color:#FA7C7A;
+text-decoration:none;
+}
+#linetop{
+
+color:black;
+width:200000000000000000px;
+height:10px;
+position:fixed;
+top:2%;
+z-index:2;
+background-color:white;
+}
+#linebottom{
+
+color:black;
+width:200000000000000000px;
+height:10px;
+position:fixed;
+bottom:2%;
+z-index:2;
+background-color:white;
+}
+}
+@media screen and (max-width:400px)
+
+{
+
+	body{
+background-color:#F2A2A2;
+}
+
+#link{
+display: block;
+color:#FA7C7A;
+text-decoration:none;
+}
+#box{
+background-color:white;
+width:257.2581 px;
+height:440px;
+margin-top:10%;
+}
+h1{
+color:#FA7C7A;
+text-align:center;
+font-size:45px;
+margin:30% 0;
+padding-top:5%;
+
+}
+ h1 span{
+padding-bottom:1%;
+border-bottom: 2px solid #FA7C7A;
+}
+
+form{
+margin-top:10%;
+}
+#lname,#lpass,#logbtn{
+display: block;
+margin : 0 5% -7% 5%;
+color:#FA7C7A;
+}
+#iname,#ipass{
+display: block;
+margin : 5% auto;
+outline:none;
+border:none;
+width:90%;
+border-bottom:2px solid #FA7C7A;
+
+}
+form #link{
+display: block;
+margin : -6% 0% 0 64%;
+color:#FA7C7A;
+text-decoration:none;
+}
+#logbtn:hover{
+border:1px solid #FA7C7A;
+background-color:white;
+color:#FA7C7A;
+display:inline-block;
+
+}
+#logbtn{
+background-color:#FA7C7A;
+color:white;
+border:none;
+top:0;
+left:0;
+padding:2% 14.5%;
+display:inline;
+transition:.2s;
+border:1px solid #FA7C7A;
+}
+}
+</style>
+</head>
+<body>
+<div id="linetop">
+</div>
+<div id="box">
+
+<h1><span >Login</span></h1>
+
+<form>
+<label id="lname">Username</label>
+<br>
+<input type="text" id="iname" autofocus></input>
+<br>
+<label class="contain" id="lpass">password</label>
+<br>
+<input type="password" id="ipass"></input>
+<br>
+<a id="link" href="#">
+Forgot Password ?
+</a>
+<br><br>
+<input id="logbtn" type="submit" value="Login">
+
+<input id="logbtn" type="submit" value="Back">
+
+</form>
+
+</div>
+<div id="linebottom">
+</div>
+</body>
+</html>
